@@ -1,0 +1,14 @@
+models:
+  r3dpa:
+      metrics:
+        - minkowskinet
+        - spvcnn
+        - liploc
+        - rangevit_wo_i
+        - mmd
+        - tv
+        - jsd
+      samples_path: log/samples/e2e-sit-b-2-h2p4d8-b32_1880000_cfg1.0-0.0-1.0/numpy/img.npz
+    
+save_path: "log/results/ablations"
+dataset_stat_path: "log/activations/data_statistics.npy"
