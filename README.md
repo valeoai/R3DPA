@@ -1,4 +1,4 @@
-<h1 align="center"> <span style="color: red;">R3D</span>PA: Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation</h1>
+<h1 align="center"> <span style="color: red">R3D</span>PA: Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation</h1>
 
 <p align="center">
   <a href="https://scholar.google.com/citations?user=9Mr--hUAAAAJ" target="_blank">Nicolas&nbsp;Sereyjol-Garros</a> &ensp; <b>&middot;</b> &ensp;
@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <a href="">🌐 Project Page</a> &ensp;
-  <a href="">📃 Paper</a>
+  <!-- <a href="">🌐 Project Page</a> &ensp; -->
+  <a href="https://arxiv.org/abs/2601.07692">📃 Paper</a>
 </p>
 
 ![](assets/vis-examples.png)
@@ -24,7 +24,7 @@ to scarcity in 3D data for robotic tasks such as autonomous
 driving. Recent approaches employ diffusion or flow matching
 models to generate realistic scenes, but 3D data remains limited
 compared to RGB datasets with millions of samples. We introduce
-<span style="color: red;">R3D</span>PA, the first LiDAR scene generation method to unlock
+<span style="color: red">R3D</span>PA, the first LiDAR scene generation method to unlock
 image-pretrained priors for LiDAR point clouds, and leverage
 self-supervised 3D representations for state-of-the-art results.
 Specifically, we (i) align intermediate features of our generative
@@ -49,7 +49,20 @@ generative model. We then jointly optimize the VAE encoder and the
 generative model under the supervision of 3D representations. Range
 VAE denotes a model trained on range images.
 
+## 📚 Citation
+If you find our work useful, please consider citing:
 
+```bibtex
+@misc{r3dpa,
+      title={Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation}, 
+      author={Nicolas Sereyjol-Garros and Ellington Kirby and Victor Besnier and Nermin Samet},
+      year={2026},
+      eprint={2601.07692},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.07692}, 
+}
+```
 ## Getting Started
 ### 1. Environment Setup
 To set up our environment, please run:
@@ -163,9 +176,4 @@ This codebase is largely built upon:
 
 We sincerely thank the authors for making their work publicly available.
 
-## 📚 Citation
-If you find our work useful, please consider citing:
 
-```bibtex
-
-```
