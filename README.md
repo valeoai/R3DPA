@@ -68,7 +68,7 @@ If you find our work useful, please consider citing:
 To set up our environment, please run:
 
 ```bash
-git clone https://github.com/R3DPA/R3DPA.git
+git clone https://github.com/valeoai/R3DPA.git
 cd R3DPA
 conda env create -f environment.yml
 conda activate r3dpa
