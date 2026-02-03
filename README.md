@@ -13,7 +13,12 @@
 
 <p align="center">
   <!-- <a href="">🌐 Project Page</a> &ensp; -->
-  <a href="https://arxiv.org/abs/2601.07692">📃 Paper</a>
+  <a href="https://arxiv.org/abs/2601.07692">📃 Paper</a> &ensp;
+  <a href="https://www.youtube.com/watch?v=vxuOtmVPHbU">🎬 Video</a>
+</p>
+
+<p align="center">
+Accepted at ICRA 2026
 </p>
 
 ![](assets/vis-examples.png)
@@ -53,14 +58,11 @@ VAE denotes a model trained on range images.
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{r3dpa,
+@inproceedings{sereyjol2026r3dpa,
       title={Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation}, 
       author={Nicolas Sereyjol-Garros and Ellington Kirby and Victor Besnier and Nermin Samet},
       year={2026},
-      eprint={2601.07692},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2601.07692}, 
+      booktitle={ICRA},
 }
 ```
 ## Getting Started
