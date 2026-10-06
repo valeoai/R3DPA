@@ -59,7 +59,7 @@ If you find our work useful, please consider citing:
 
 ```bibtex
 @inproceedings{sereyjol2026r3dpa,
-      title={R3DPA: Leveraging 3D Representation Alignment and RGB Pretrained Priors for LiDAR Scene Generation}, 
+      title={{R3DPA}: Leveraging 3D Representation Alignment and RGB Pretrained Priors for {LiDAR} Scene Generation}, 
       author={Nicolas Sereyjol-Garros and Ellington Kirby and Victor Besnier and Nermin Samet},
       year={2026},
       booktitle={ICRA},
